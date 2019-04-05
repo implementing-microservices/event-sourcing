@@ -17,6 +17,12 @@ Emits following events:
 1. payment information removed
 1. order placed
 
+### Payment Collection Microservice
+
+Listens to:
+
+1. shopping-cart.order-placed event
+
 ### Past Orders Microservice
 
-Returns reverse-chronologically ordered list of orders
+Listens to events from Shopping Cart to create query-able, materialized view. Returns reverse-chronologically ordered list of orders
