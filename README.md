@@ -15,13 +15,19 @@ Emits following events:
 1. shipping information removed
 1. payment information added
 1. payment information removed
-1. order placed
 
-### Payment Collection Microservice
+Listens to following events:
 
-Listens to:
+1. ms-payment.payment-processed
 
-1. shopping-cart.order-placed event
+### Payment Processing Microservice (ms-payment)
+
+Emits following events:
+
+1. `Payment Processed`. Data elements:
+    - cart_id
+2. `Payment Failed`
+    - cart_id
 
 ### Past Orders Microservice
 
