@@ -7,6 +7,9 @@ https://docs.microsoft.com/en-us/azure/architecture/patterns/event-sourcing
 
 ### Shopping Cart Microservice
 
+1. [Jobs-To-Be Done](https://github.com/implementing-microservices/ms-shoppingcart#jobs-to-be-done) 
+1. [Actions](https://github.com/implementing-microservices/ms-shoppingcart#actions)
+
 Emits following events:
 
 1. an item added to a user cart
