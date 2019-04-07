@@ -13,6 +13,12 @@ https://docs.microsoft.com/en-us/azure/architecture/patterns/event-sourcing
 Emits following events:
 
 1. an item added to a user cart
+    - user_id
+    - cart_id
+    - product_id
+    - price
+    - count
+    - productOptions
 1. an item removed from a user cart
 1. shipping information updated
 1. shipping information removed
